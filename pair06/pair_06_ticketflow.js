@@ -36,7 +36,7 @@ let discounted = 0
 let fullPrice = 0
 let totalSum = 0
 
-for (let something = 1; something<= tickets; i++) {
+for (let something = 1; something<= tickets; something++) {
     let age = +prompt(`Enter age for ticket ${something} (or -1 to stop)`)
 
     while (age < -1 || isNaN(age)){
