@@ -1,0 +1,145 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e5e8f1;
+    color: #30394e;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.form-block {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    min-width: 0;
+    flex: 1;
+}
+.list-block {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    min-width: 0;
+    flex: 2;
+}
+
+h2 {
+    margin: 0 0 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row p {
+    margin: 0 0 10px;
+}
+
+input{
+    min-width: 0;
+    padding: 10px;
+    margin: 0 0 20px;
+    border-radius: 8px;
+    border: 1px solid #e1e5ef;
+    background: #f2f3f9;
+}
+
+button {
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 8px;
+    background: #5669c4;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4356af;
+}
+
+
+.counters {
+    display: flex;
+    gap: 10px;
+}
+
+.counters p {
+    background: #edf0fb;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0;
+    flex: 1;
+}
+
+.counters strong {
+    display: block;
+}
+
+#requestList {
+    padding: 0;
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    margin: 0 0 10px;
+    border: 1px solid #d3dbee;
+    border-radius: 8px;
+}
+
+.request-info {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.request-info p {
+    color: #68728a;
+    margin: 6px 0;
+}
+
+.status {
+    display: inline-block;
+    background: #fff0d7;
+    color: #875811;
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+
+.confirmed {
+    background: #f3faf5;
+}
+.confirmed .status {
+    background: #d5efdf;
+    color: #306846;
+}
+
+.delete-btn {
+    background: #fce9ec;
+    color: #a73242;
+}
+
+.clear-btn {
+    background: #edf0fb;
+    color: #465584;
+}
+
+#errorMessage {
+    color: #a73242;
+}

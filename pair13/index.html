@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main class="app">
+    <h1>Event club</h1>
+    <p>Sign up for school events</p>
+
+    <div class="content">
+        <div class="form-block">
+            <h2>New request</h2>
+            <div class="form-row">
+                <p>Participant name</p>
+                <input id="nameInput" type="text" placeholder="Musim Seitkhalil">
+
+
+                <p>Event name</p>
+                <input id="eventInput" type="text" placeholder="MAN Defence">
+                <p id="errorMessage"></p>
+                <button id="addButton" type="button">+ Add request</button>
+            </div>
+        </div>
+
+        <div class="list-block">
+            <h2>Participants</h2>
+            <div class="counters">
+                <p>Total requests <strong id="requestCounter">0</strong></p>
+                <p>Confirmed <strong id="confirmedCounter">0</strong></p>
+            </div>
+            <p id="emptyMessage">No requests yet</p>
+            <ul id="requestList"></ul>
+            <button id="clearButton" class="clear-btn" type="button">Clear all</button>
+        </div>
+    </div>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+
+</html>
