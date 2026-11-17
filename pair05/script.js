@@ -96,6 +96,7 @@ while(pin !== correctPin && tries < 3){
     tries ++;
 }
 
+
 if (pin === correctPin) {
     let menuChoice;
     do {
@@ -120,7 +121,7 @@ if (pin === correctPin) {
                 break;
             default:
                 alert("There is no such section");
-                break; // This ensures you used 'break' as required!
+                break;
         }
     }    while(menuChoice !==0);
 
