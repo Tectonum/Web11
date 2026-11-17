@@ -96,7 +96,6 @@ while(pin !== correctPin && tries < 3){
     tries ++;
 }
 
-
 if (pin === correctPin) {
     let menuChoice;
     do {
